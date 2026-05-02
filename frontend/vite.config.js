@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://taskmanagementsystem-production-9754.up.railway.app',
+        target: 'https://taskmanagementsystem-production-9754.up.railway.app/',
         changeOrigin: true
       }
     }
